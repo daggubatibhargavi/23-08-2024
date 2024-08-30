@@ -1,0 +1,73 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.main-container {
+  background-color: blue;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 20px;
+  /* width: 50px; */
+}
+.main-section {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.heading {
+  text-align: center;
+  color: white;
+  margin: 40px;
+}
+.section1 {
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+.main-section li {
+  list-style: none;
+}
+.section2 {
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px;
+  position: relative;
+}
+.section2 .most-popular::before {
+  content: "MOST POPULAR";
+  background-color: lightgreen;
+  font-size: 20px;
+  padding: 5px;
+  transform: translateX(-50%);
+  position: absolute;
+  top: 1px;
+  /* bottom: 10px; */
+  left: 50%;
+  /* transform: translateX(-50%);  */
+  color: blue;
+  font-weight: bold;
+}
+.section2 button:last-child {
+  background-color: lightseagreen;
+}
+.section3 {
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+/* #pid {
+  background-color: wheat;
+  color: blue;
+  font-weight: bold;
+} */
